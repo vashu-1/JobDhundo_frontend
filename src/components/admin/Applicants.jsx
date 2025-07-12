@@ -6,7 +6,7 @@ import { APPLICATION_API_END_POINT } from "@/utils/constant";
 import { useParams } from "react-router-dom";
 import { toast } from "sonner";
 import { useDispatch } from "react-redux";
-import { setAllApplicants } from "@/redux/applicationSlice";
+import { setAllApplicants } from "@/redux/applicationslice";
 import { useSelector } from "react-redux";
 
 const Applicants = () => {
