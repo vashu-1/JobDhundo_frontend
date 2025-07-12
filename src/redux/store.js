@@ -13,7 +13,7 @@ import {
 } from "redux-persist";
 import storage from "redux-persist/lib/storage"; // defaults to localStorage for web
 import companySlice from "../redux/companySlice.js";
-import applicationSlice from "./applicationslice.js";
+import applicationSlice from "./applicationSlice.js";
 
 const persistConfig = {
   key: "root",
